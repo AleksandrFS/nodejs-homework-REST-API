@@ -2,7 +2,7 @@ const errorMessageList = {
   400: "Bad Request",
   401: "Unauthorized",
   403: "Forbidden",
-  409: "Conflict"
+  409: "Conflict",
 };
 
 const HttpError = (status, message = errorMessageList[status]) => {
